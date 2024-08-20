@@ -813,13 +813,14 @@ span{
     .service-box .service-info h4,
     .service-box .service-info i{
         font-size: 3rem;
+        text-align: justify;
     }
     .projects-card{
         height: 400px;
         width: 90%;
     }
     .projects-card img{
-        min-width: 2rem;
+        min-width: 20rem;
     }
 
 }
