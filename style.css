@@ -369,6 +369,7 @@ span{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
+    place-items: center;
 }
 .service-box{
     display: flex;
@@ -809,12 +810,16 @@ span{
         height: 400px;
         width: 90%;
     }
-    .project-card{
+    .service-box .service-info h4,
+    .service-box .service-info i{
+        font-size: 3rem;
+    }
+    .projects-card{
         height: 400px;
         width: 90%;
     }
-    .project-card img{
-        min-width: 35rem;
+    .projects-card img{
+        min-width: 2rem;
     }
 
 }
