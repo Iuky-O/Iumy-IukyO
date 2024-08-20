@@ -809,11 +809,11 @@ span{
         height: 400px;
         width: 90%;
     }
-    .projects-card{
+    .project-card{
         height: 400px;
         width: 90%;
     }
-    .projects-box img{
+    .project-card img{
         min-width: 35rem;
     }
 
