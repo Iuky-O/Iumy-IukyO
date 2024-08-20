@@ -369,6 +369,7 @@ span{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
+    place-items: center;
 }
 .service-box{
     display: flex;
@@ -801,24 +802,25 @@ span{
         margin-bottom: -15px;   
     }
 }
-@media(max-width:340px){
+@media(max-width:450px){
     .skills-container{
         grid-template-columns: repeat(2,1fr);
     }
     .service-box{
         height: 400px;
-        width: 200px;
+        width: 90%;
     }
-    .service-box h4{
-        font-size: 1.2rem;
-        font-weight: 900;
+    .service-box .service-info h4,
+    .service-box .service-info i{
+        font-size: 3rem;
     }
-    .projects-box{
+    .projects-card{
         height: 400px;
-        width: 200px;
+        width: 90%;
     }
-    .projects-box img{
-        min-width: 35rem;
+    .projects-card img{
+        min-width: 2rem;
     }
+
 
 }
