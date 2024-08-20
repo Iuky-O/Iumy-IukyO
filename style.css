@@ -803,24 +803,33 @@ span{
     }
 }
 @media(max-width:450px){
-    .skills-container{
+ .skills-container{
         grid-template-columns: repeat(2,1fr);
     }
     .service-box{
         height: 400px;
         width: 90%;
+        padding: 1rem 1rem;
     }
     .service-box .service-info h4,
     .service-box .service-info i{
         font-size: 3rem;
+    }
+    .service-box .service-info p{
+        font-size: 1.2rem;
         text-align: justify;
     }
     .project-card{
         height: 400px;
         width: 90%;
     }
-    .projects-card img{
-        min-width: 20rem;
+    .project-card img{
+        max-width: 20px;
+        max-height: 20rem;
+    }
+    .project-card p{
+        font-size: 1.3rem;
+        text-align: justify;
     }
 
 }
