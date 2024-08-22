@@ -674,7 +674,7 @@ span{
     }
     .skills-container{
         padding-bottom: 7rem;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(4,1fr);
         margin: 0 5rem;
     }
 }
@@ -692,7 +692,7 @@ span{
         padding: 2rem 3%;
     }
     .skills-container{
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
     .skill-box{
         height: 80%;
@@ -791,9 +791,6 @@ span{
     }
     .skills h2{
         margin-bottom: 3rem;
-    }
-    .skills-container{
-        grid-template-columns: repeat(3,1fr);
     }
     .skill-box{
         height: 70%;
