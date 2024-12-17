@@ -366,10 +366,13 @@ span{
 }
 .services-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2.5rem;
+    grid-template-columns:repeat(2,1fr);
     place-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 5rem 0;
+    gap: 2.5rem;
+    row-gap: 5rem;
 }
 .service-box{
     display: flex;
@@ -513,8 +516,12 @@ span{
 .skills-container{
     display: grid;
     grid-template-columns:repeat(5,1fr);
+    place-items: center;
     align-items: center;
+    align-content: center;
+    margin: 5rem 0;
     gap: 2.5rem;
+    row-gap: 5rem;
 }
 .skill-box{
     display: flex;
@@ -667,7 +674,7 @@ span{
     }
     .skills-container{
         padding-bottom: 7rem;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(4,1fr);
         margin: 0 5rem;
     }
 }
@@ -685,7 +692,7 @@ span{
         padding: 2rem 3%;
     }
     .skills-container{
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
     .skill-box{
         height: 80%;
@@ -785,9 +792,6 @@ span{
     .skills h2{
         margin-bottom: 3rem;
     }
-    .skills-container{
-        grid-template-columns: repeat(3,1fr);
-    }
     .skill-box{
         height: 70%;
         width: 90px;
@@ -802,24 +806,34 @@ span{
         margin-bottom: -15px;   
     }
 }
-@media(max-width:450px){
+@media(max-width:750px){
     .skills-container{
         grid-template-columns: repeat(2,1fr);
     }
     .service-box{
         height: 400px;
         width: 90%;
+        padding: 1rem 1rem;
     }
     .service-box .service-info h4,
     .service-box .service-info i{
         font-size: 3rem;
     }
-    .projects-card{
+    .service-box .service-info p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .project-card{
         height: 400px;
         width: 90%;
     }
-    .projects-card img{
-        min-width: 2rem;
+    .project-card img{
+        max-width: 20px;
+        max-height: 20rem;
+    }
+    .project-card p{
+        font-size: 1.3rem;
+        text-align: justify;
     }
 
 }
